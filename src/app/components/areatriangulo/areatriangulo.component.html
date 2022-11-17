@@ -1,0 +1,7 @@
+<h2 style="font-family: Muli;">AREA DE TRIANGULO</h2>
+<div style="width: 200px;">
+    <input class="input-group mb-2" type="text" placeholder="Ingrese la base" [(ngModel)]="base">
+    <input class="input-group mb-2" type="text" placeholder="Ingrese la altura" [(ngModel)]="altura">
+</div>
+<button style="font-family: Muli;" class="btn btn-danger" (click)="calcularAreaTriangulo()">Calcular</button>
+<p style="font-family: Muli;">El area total del triangulo es : {{area}}</p>
